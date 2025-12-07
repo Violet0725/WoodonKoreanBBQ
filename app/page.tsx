@@ -878,7 +878,7 @@ function Footer() {
 // Main Page Component
 export default function Home() {
   return (
-    <main className="overflow-x-hidden max-w-[100vw]">
+    <main className="overflow-x-hidden w-full">
       <Navigation />
       <Hero />
       <About />

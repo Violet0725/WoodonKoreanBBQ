@@ -2,22 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+html, body {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  width: 100%;
 }
 
 body {
   @apply bg-primary text-white;
-  overflow-x: hidden;
-  max-width: 100vw;
-}
-
-/* Prevent horizontal scroll on mobile */
-#__next,
-main {
-  overflow-x: hidden;
-  max-width: 100vw;
 }
 
 @layer utilities {
