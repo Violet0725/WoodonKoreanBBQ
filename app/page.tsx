@@ -167,18 +167,18 @@ function About() {
               complement your BBQ experience. From fresh kimchi to seasoned vegetables, each 
               side is made fresh daily with authentic Korean flavors.
             </p>
-            <div className="flex gap-8">
+            <div className="flex flex-wrap gap-4 md:gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent-orange">100%</div>
-                <div className="text-sm text-white/60">Fresh Daily</div>
+                <div className="text-2xl md:text-3xl font-bold text-accent-orange">100%</div>
+                <div className="text-xs md:text-sm text-white/60">Fresh Daily</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent-orange">Premium</div>
-                <div className="text-sm text-white/60">Quality Meats</div>
+                <div className="text-2xl md:text-3xl font-bold text-accent-orange">Premium</div>
+                <div className="text-xs md:text-sm text-white/60">Quality Meats</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent-orange">Authentic</div>
-                <div className="text-sm text-white/60">Korean Recipes</div>
+                <div className="text-2xl md:text-3xl font-bold text-accent-orange">Authentic</div>
+                <div className="text-xs md:text-sm text-white/60">Korean Recipes</div>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@ function About() {
               alt="Premium beef cuts at Woodon"
               className="rounded-lg shadow-2xl w-full"
             />
-            <div className="absolute -bottom-6 -left-6 bg-accent-orange p-6 rounded-lg shadow-xl">
+            <div className="absolute -bottom-6 left-0 md:-left-6 bg-accent-orange p-4 md:p-6 rounded-lg shadow-xl">
               <div className="text-2xl font-bold">K-BBQ</div>
               <div className="text-sm">Experience</div>
             </div>
